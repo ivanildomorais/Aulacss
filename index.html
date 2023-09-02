@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Menu do Dolly</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <style>
+
+body, div, h1, h2, h3, img, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+        /* Estilos para telas grandes */
+        @media (min-width: 768px) {
+            .menu_navegacao {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .menu_navegacao ul {
+                display: flex;
+                gap: 20px;
+            }
+
+            .conteudo_principal {
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        /* Estilos para telas menores */
+        @media (max-width: 767px) {
+            .menu_navegacao {
+                text-align: center;
+            }
+
+            .menu_navegacao ul {
+                display: block;
+                margin-top: 10px;
+            }
+
+            .conteudo_principal {
+                text-align: center;
+            }
+            .footer {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu_navegacao">
+
+        <img src="./dollylogo.png" alt="Logo da empresa">
+
+        <ul>
+            <li>Início</li>
+            <li>História</li>
+            <li>Produtos</li>
+            <li>Contatos</li>
+        </ul>
+
+    </div>
+    <div class="conteudo_principal">
+        <img src="./bkg-slide1.jpg" alt="Imagem principal">
+        <div class="mensagem_principal">
+            <h1>DOLLY REFRIGERANTES</h1>
+            <h2>Uma Marca</h2>
+            <h3>100% NACIONAL</h3>
+            <h2>No Mercado de Refrigerantes</h2>
+            <h3>Desde 1987</h3>     
+        </div>
+    </div>
+</div>
+
+            <div class="video-container">
+                
+                <iframe width="347" height="195" src="https://www.youtube.com/embed/zoSPuZfz-Zk" title="Dolly Dia das Mães!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="347" height="195" src="https://www.youtube.com/embed/pq4bOMOk2Io" title="Dolly Páscoa!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="347" height="195" src="https://www.youtube.com/embed/ugiCi9EHwW8" title="Dolly Guaraná" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                          
+        </div> 
+
+        <div class="footer">
+            <p>&copy; 2023 Dolly Refrigerantes. Todos os direitos reservados.
+    </div>
+    
+</body>
+</html>

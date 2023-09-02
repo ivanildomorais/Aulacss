@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+
+.menu_navegacao{
+    display: flex;
+    justify-content: space-around;
+    background-color: #deeaba;
+    align-items: center;
+}
+
+ul, li{
+    display: inline-block;
+    margin-left: 20px;
+    color: green;
+    font-family: Lato;
+    
+}
+
+.conteudo_principal{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+
+h3{
+    background-color: green;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 8px 0 8px;
+    color: white;
+}
+
+h2{
+
+    font-weight: 400;
+}
+
+h1, h2, h3{
+    font-family: Latos;
+}
+
+.footer  {
+    background-color: #086434;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+
+.video-container iframe {
+    width: 300px; 
+    height: 200px; 
+    margin: 0 10px; 
+}
